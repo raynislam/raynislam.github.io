@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rayn Islam - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #00ff00, #00cc00);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #001f33, #004080);
+      padding: 10px 20px;
+    }
+
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 800;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .intro-box {
+      background: linear-gradient(to right, #0077cc, #00aaff);
+      color: black;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 800;
+      background-color: #0099ff;
+      color: black;
+      display: inline-block;
+      padding: 6px 20px;
+      border-radius: 5px;
+    }
+
+    .project-box {
+      background-color: lightgray;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      margin-bottom: 5px;
+    }
+
+    .project-label {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      margin-top: 15px;
+      background-color: #0099ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar d-flex align-items-center">
+    <div class="container-fluid d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <img src="https://ibb.co/p6fCXQ5w" alt="Logo" class="logo">
+        <a class="navbar-brand" href="#">Rayn Islam</a>
+      </div>
+      <div>
+        <a class="nav-link d-inline" href="#">LinkedIn</a>
+        <a class="nav-link d-inline" href="#">Droniq</a>
+        <a class="nav-link d-inline" href="#">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="container">
+    <div class="intro-box">
+      <p><strong>Hey! I am Rayn Islam.</strong> I am a high school senior. I am a tech and soccer geek and I plan on majoring in Computer Science. I am also a FAA Part-107 Commercial Drone Pilot License holder. I am also an avid rock and metal fan.</p>
+    </div>
+
+    
+    <div class="text-center my-4">
+      <h2>Projects</h2>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 mb-4">
+        <div class="project-box">Project 1</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="project-box">Project 2</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="project-box">Project 3</div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="project-box">Project 4</div>
+      </div>
+    </div>
+
+  
+    <div class="text-center my-4">
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Your message"></textarea>
+
+      <div class="text-center">
+        <button>Submit</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
