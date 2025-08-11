@@ -1,1 +1,22 @@
 
+body {
+  background-color: limegreen;
+}
+
+.section-title {
+  font-weight: bold;
+  color: blue;
+}
+
+.project-box {
+  background: lightgray;
+  padding: 40px;
+  font-weight: bold;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  margin: 5px auto;
+  border: 1px solid #000;
+}
